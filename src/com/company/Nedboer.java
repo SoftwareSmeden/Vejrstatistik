@@ -102,12 +102,12 @@ public class Nedboer {
 
         double startMM = 10.0;
 
-        for (double i = 9.9; i >= 0; i -= 0.1) {
+        for (double mm = 9.9; mm >= 0; mm -= 0.1) {
             System.out.printf("| %-4.1fmm  ",startMM);
             startMM -= 0.1;
 
             for (Nedboer value : nedArr) {
-                if (value.getNedboer() >= i) {
+                if (value.getNedboer() >= mm) {
                     System.out.print("  *");
                 } else {
                     System.out.print("   ");
