@@ -116,6 +116,6 @@ public class Main {
         System.out.println("Temperaturer for Januar 2011 sorteret fra mindste til størst: ");
         temp11.udsSortTemp2011(tempArr2011,temp11);
 
-        System.out.println("FÆRDIG!");
+        System.out.println("\nFÆRDIG!");
     }
 }
