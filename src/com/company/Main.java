@@ -95,7 +95,7 @@ public class Main {
         System.out.print("Datoer i Januar 2020, der var under gennemsnitsnedbøret: ");
         nedboer20.udsDatoUnderGns(nedboer2020,nedboer20);
 
-        //Opg. 8: IKKE FÆRDIG
+        //Opg. 8:
         System.out.println("\nOpg. 8:");
         System.out.println("Stolpe diagram for nedbørsmængde, Januar 2011: ");
         System.out.println("\n______________________________JANUAR 2011 - NEDBØRSMÆGNDE - STOLPEDIAGRAM________________________________");
