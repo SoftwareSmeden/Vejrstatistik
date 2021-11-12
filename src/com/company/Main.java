@@ -97,7 +97,7 @@ public class Main {
 
         //Opg. 8:
         System.out.println("\nOpg. 8:");
-        System.out.println("Stolpe diagram for nedbørsmængde, Januar 2011: ");
+        System.out.println("Stolpediagram for nedbørsmængde, Januar 2011: ");
         System.out.println("\n______________________________JANUAR 2011 - NEDBØRSMÆGNDE - STOLPEDIAGRAM________________________________");
         nedboer11.udsStolpeDiagram(nedboer2011);
 
