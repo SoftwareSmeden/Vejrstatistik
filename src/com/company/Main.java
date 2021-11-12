@@ -97,6 +97,8 @@ public class Main {
 
         //Opg. 8: IKKE FÆRDIG
         System.out.println("\nOpg. 8:");
+        System.out.println("Stolpe diagram for nedbørsmængde, Januar 2011: ");
+        System.out.println("\n______________________________JANUAR 2011 - NEDBØRSMÆGNDE - STOLPEDIAGRAM________________________________");
         nedboer11.udsStolpeDiagram(nedboer2011);
 
         //Opg. 9:
@@ -113,5 +115,7 @@ public class Main {
         System.out.println("\nOpg. 11:");
         System.out.println("Temperaturer for Januar 2011 sorteret fra mindste til størst: ");
         temp11.udsSortTemp2011(tempArr2011,temp11);
+
+        System.out.println("FÆRDIG!");
     }
 }

@@ -97,9 +97,33 @@ public class Nedboer {
         }
     }
 
-    //Opg. 8: IKKE FÆRDIG
+    //Opg. 8:
     public void udsStolpeDiagram(Nedboer[] nedArr){
-        System.out.println("MANGLER");
+
+        double startMM = 10.0;
+
+        for (double i = 9.9; i >= 0; i -= 0.1) {
+            System.out.printf("| %-4.1fmm  ",startMM);
+            startMM -= 0.1;
+
+            for (Nedboer value : nedArr) {
+                if (value.getNedboer() >= i) {
+                    System.out.print("  *");
+                } else {
+                    System.out.print("   ");
+                }
+            }
+            System.out.println(" |");
+        }
+
+        //Dage printes her
+        System.out.println("_________________________________________________________________________________________________________");
+        System.out.printf("%-12s","Jan. 2011");
+        int dag = 1;
+        for (int i = 0; i < 31; i++) {
+            System.out.printf("%-2d ", dag);
+            dag++;
+        }
     }
 
     //Getter og setters
