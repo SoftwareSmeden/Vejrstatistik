@@ -102,7 +102,7 @@ public class Main {
         nedboer11.udsStolpeDiagram(nedboer2011);
 
         //Opg. 9:
-        System.out.println("\nOpg. 9:");
+        System.out.println("\n\nOpg. 9:");
         System.out.println("Dage i Januar 2020, der havde højere temperaturer end i 2011: ");
         temp20.udsDato2020HoejEnd2011(tempArr2011,tempArr2020,temp11);
 
